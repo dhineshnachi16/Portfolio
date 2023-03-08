@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+body{
+    background-color: rgb(58, 57, 57);
+    color: white;
+}
+#nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+#nav a{
+    font-family: 'Shantell Sans';
+}
+.social-med {
+    padding: 25px;
+}
+.social-med a{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 25px;
+    color: rgb(189, 124, 124);
+}
+#fk:hover{
+    color: blue;
+}
+#ist:hover{
+    color: white;
+}
+#tw:hover{
+    color: skyblue;
+}
+#yt:hover{
+    color: red;
+}
+#lin:hover{
+    color: darkblue;
+}
+footer{
+    font-family: 'Shantell Sans';
+}
+
+.ftr-name p{
+    text-align: center;
+    font-size: 40px;
+}
+

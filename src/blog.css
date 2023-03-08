@@ -1,0 +1,39 @@
+#blog{
+    margin-top: 75px;
+}
+.dis{
+    margin-top: 10px;
+    background-color: rgba(105, 102, 102, 0.445);
+}
+.dis img{
+    width: 100%;
+    height: 150px;
+}
+.eff{
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    top: .1px;
+    background-color: rgba(0, 0, 0, 0.404);
+    opacity: .7;
+    text-align: center;
+    position: absolute;
+    transition:.5 ease;
+    display: none;
+}
+.overlay a{
+    position: relative;
+    top: 60px;
+}
+.eff:hover .overlay{
+    display: block;
+}
+.body{
+    padding: 10px;
+}
+.dis:hover{
+    box-shadow:2px 2px 15px 5px rgb(0, 0, 0);
+}
