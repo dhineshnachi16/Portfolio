@@ -14,7 +14,7 @@ export default function Welcome(){
     
         <nav id="nav" className="navbar navbar-expand-lg navbar-dark bg-danger">
             <div className="container">
-                <a href={<Welcome/>} className="navbar-brand"><i className="fa-solid fa-d"></i>hinesh <i className="fa-solid fa-n"></i>achimuthu</a>
+                <a href="#" className="navbar-brand"><i className="fa-solid fa-d"></i>hinesh <i className="fa-solid fa-n"></i>achimuthu</a>
                 <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-collapse">
                     <span className="navbar-toggler-icon"></span>
                 </button>
